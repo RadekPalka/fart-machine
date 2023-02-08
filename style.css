@@ -15,4 +15,8 @@ button{
   border-radius: 50%;
   border: 1px solid white;
   color: white;
+  transition: background-color 0.5s, color 0.5s;
 }
+button:hover{
+  background-color: darkred;
+  color: #bbb;
