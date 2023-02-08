@@ -20,8 +20,10 @@ button{
 button:hover{
   background-color: darkred;
   color: #bbb;
+  cursor: pointer;
 }
-.disabled{
+button.disabled{
   background-color: darkred;
   color: #bbb;
+  cursor: wait;
 }
