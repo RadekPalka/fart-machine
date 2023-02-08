@@ -1,0 +1,24 @@
+{
+  "name": "Fart machine",
+  "short_name": "Farts",
+  "start_url": "index.html",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#000",
+  "description": "Reclaim calculator",
+  "dir": "ltr",
+  "lang": "pl",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "images/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
