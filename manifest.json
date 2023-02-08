@@ -5,6 +5,7 @@
   "scope": ".",
   "display": "standalone",
   "background_color": "#000",
+  "color": "#fff",
   "description": "Fart machine",
   "dir": "ltr",
   "lang": "pl",
