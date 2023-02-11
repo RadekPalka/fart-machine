@@ -5,10 +5,17 @@ const staticAssets = [
   './style.css',
   './index.js',
   './main.js',
+  './fart noises/fart1.mp3',
+  './fart noises/fart2.mp3',
+  './fart noises/fart3.mp3',
+  './fart noises/fart4.mp3',
+  './fart noises/fart5.mp3',
+  './fart noises/fart6.mp3',
+  './fart noises/fart7.mp3',
+  './fart noises/fart8.mp3',
+  './fart noises/fart9.mp3',
   ];
-for (let i=1; i<10; i++){
-  staticAssets.push(`./fart noises/fart${i}.mp3`)
-}
+
 self.addEventListener('install', async e => {
   const cache = await caches.open(cacheName);
   await cache.addAll(staticAssets);
